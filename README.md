@@ -24,7 +24,7 @@ API документировано с помощью Swagger/OpenAPI, что п�
 
 ### 1. Клонируйте репозиторий:
 ```bash
-git clone [https://github.com/yourusername/nationalize-api.git](https://github.com/G-Bedy/Nationalize-API.git)
+git clone https://github.com/G-Bedy/Nationalize-API.git
 cd nationalize-api
 ```
 
