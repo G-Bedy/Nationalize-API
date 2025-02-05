@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API Client</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Предсказать этническую принадлежность имени</h1>
+        <form id="name-form">
+            <label for="name-input">Введите имя:</label>
+            <input type="text" id="name-input" placeholder="Например, Эльберд" required>
+            <button type="submit">Получить данные</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2>Результат:</h2>
+            <ul id="countries-list"></ul>
+        </div>
+    </div>
+
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
